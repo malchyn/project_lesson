@@ -108,11 +108,15 @@ do {
     x++;
 }
 while (x < 55);
-*/
-for (let i = 0; i < 10; i++) {
-    if (i == 0) {
-        console.log(i);
-    } else {
-        console.log("What?");
-    }
+
+
+for (let i = 0; i < 3; i++) { 
+    console.log(i);
 }
+
+for (let i = 0; i < 10; i++) {
+    if (i % 2) {
+        console.log(i);
+    } 
+}
+*/
